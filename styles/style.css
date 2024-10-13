@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    display: block;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu a:hover {
+    background-color: #555;
+    border-radius: 4px;
+    transform: scale(1.1);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
