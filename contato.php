@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+        session_start();
         error_reporting(0);
 
         $menuNames = ["Home", "Populares", "Tecnologias", "Contato", "Créditos"];
@@ -24,6 +25,31 @@
             ?>
         </ul>
     </nav>
+
+    <div class="container">
+        <h1>Contato</h1>
+        <h2>Mande-nos sua sugestão de série aqui!</h2>
+        <br>
+        <form action="contato-resolucao.php" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 
    
 </body>
