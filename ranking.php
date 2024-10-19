@@ -37,6 +37,7 @@
 
         $seriesTerror = ["The Haunting of Hill House", "American Horror Story", "The Walking Dead", "Stranger Things", "Penny Dreadful", "The Exorcist"];
         $imagensTerror = ["haunting-of-hill-house.jpg", "american-horror-story.webp", "twd.webp",  "stranger-things.jpg",  "penny-dreadful.jpg",  "exorcist.jpg"];
+        //o código acima referencia para a pasta assets, e então para a pasta destinada, exemplo terro, lá refencia o nome de cada imagem para ser usada no for ali embaixo
 
         $seriesAcao = ["24 Horas", "Jack Ryan", "Arrow", "The Mandalorian", "Vikings", "The Witcher"];
         $imagensAcao = [""];
