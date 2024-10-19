@@ -54,37 +54,42 @@ nav {
 }
 
 .card-image {
-    width: 100%; /* Imagem ocupa 100% da largura do card */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%; 
+    height: auto;
 }
 
 .card-content {
     padding: 20px;
-    text-align: center; /* Centraliza o texto */
+    text-align: center; 
 }
 
 .card-content h2 {
-    font-size: 24px; /* Tamanho do título */
-    margin-bottom: 10px; /* Espaço abaixo do título */
+    font-size: 24px; 
+    margin-bottom: 10px; 
 }
 
 .card-content p {
-    font-size: 16px; /* Tamanho da descrição */
-    margin-bottom: 20px; /* Espaço abaixo da descrição */
+    font-size: 16px; 
+    margin-bottom: 20px; 
 }
 
 .card-button {
-    display: inline-block; /* Para tornar o link como um bloco */
-    background-color: #333; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    padding: 10px 20px; /* Espaço interno do botão */
-    border-radius: 5px; /* Bordas arredondadas */
-    text-decoration: none; /* Remove sublinhado */
-    transition: background-color 0.3s; /* Transição suave na mudança de cor */
+    display: inline-block; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
 }
 
 .card-button:hover {
-    background-color: #555; /* Cor do botão ao passar o mouse */
+    background-color: #555; 
+}
+
+.image-resize {
+    width: 450px;
+    height: 450px;
 }
 
 nav {
