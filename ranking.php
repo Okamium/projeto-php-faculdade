@@ -39,14 +39,14 @@
         $imagensTerror = ["haunting-of-hill-house.jpg", "american-horror-story.webp", "twd.webp",  "stranger-things.jpg",  "penny-dreadful.jpg",  "exorcist.jpg"];
         //o código acima referencia para a pasta assets, e então para a pasta destinada, exemplo terro, lá refencia o nome de cada imagem para ser usada no for ali embaixo
 
-        $seriesAcao = ["24 Horas", "Jack Ryan", "Arrow", "The Mandalorian", "Vikings", "The Witcher"];
-        $imagensAcao = [""];
+        $seriesAcao = ["24 Hours", "Jack Ryan", "Arrow", "The Mandalorian", "Vikings", "The Witcher"];
+        $imagensAcao = ["24.jpg", "jack.jpg", "arrow.webp", "mandalorian.jpeg" ,"vikings.jpg", "the-witcher.webp",];
 
         $seriesComedia = ["Friends", "The Office", "Brooklyn Nine-Nine", "Parks and Recreation", "How I Met Your Mother", "The Big Bang Theory"];
-        $imagensComedia = [""];
+        $imagensComedia = ["friends.jpg", "the-office.jpg", "b99.jpg", "parks.jpg", "how-i-met.webp", "big-bang.jpg"];
 
         $seriesDrama = ["Breaking Bad", "The Crown", "The Handmaid's Tale", "This Is Us", "Succession", "Mad Men"];
-        $imagensComedia = [""];
+        $imagensDrama = ["breaking-bad", "the-crown", "handmaid.webp", "us.webp", "succession.webp", "mad.jpg"];
         
         $menuItems = 6;
         
@@ -66,40 +66,40 @@
 
             case 'Ação':
                 for ($i = 0; $i < $menuItems; $i++) {
-                echo "<div class='card'>
-                        <img src='assets/terror.webp' alt='Terror' class='card-image'>
-                        <div class='card-content'>
-                            <h2>" . $seriesAcao[$i] . "</h2>
+                    echo "<div class='card'>
+                            <img src='assets/acao/" . $imagensAcao[$i] . "' alt='acao' class='card-image'>
+                            <div class='card-content'>
+                                <h2>" . $seriesAcao[$i] . "</h2>
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    ";
+                        <br>
+                        ";
                 }
                 break;
 
             case 'Comédia':
                 for ($i = 0; $i < $menuItems; $i++) {
-                echo "<div class='card'>
-                        <img src='assets/terror.webp' alt='Terror' class='card-image'>
-                        <div class='card-content'>
-                            <h2>" . $seriesComedia[$i] . "</h2>
+                    echo "<div class='card'>
+                            <img src='assets/comedia/" . $imagensComedia[$i] . "' alt='comedia' class='card-image'>
+                            <div class='card-content'>
+                                <h2>" . $seriesComedia[$i] . "</h2>
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    ";
+                        <br>
+                        ";
                 }
                 break;
 
             case 'Drama':
                 for ($i = 0; $i < $menuItems; $i++) {
-                echo "<div class='card'>
-                        <img src='assets/terror.webp' alt='Terror' class='card-image'>
-                        <div class='card-content'>
-                            <h2>" . $seriesDrama[$i] . "</h2>
+                    echo "<div class='card'>
+                            <img src='assets/drama/" . $imagensDrama[$i] . "' alt='drama' class='card-image'>
+                            <div class='card-content'>
+                                <h2>" . $seriesDrama[$i] . "</h2>
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    ";
+                        <br>
+                        ";
                 }
                 break;
 
