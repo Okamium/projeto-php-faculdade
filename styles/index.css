@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(32, 3, 51);
+    color: white;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    display: block;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu a:hover {
+    background-color: #555;
+    border-radius: 4px;
+    transform: scale(1.1);
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px; /* Largura máxima do card */
+    overflow: hidden; /* Para esconder bordas */
+    transition: transform 0.3s;
+    color: black;
+    border: 5px solid rgb(162, 102, 231);
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+.card-image {
+    width: 100%; 
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center; 
+}
+
+.card-content h2 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.card-content p {
+    font-size: 16px; 
+    margin-bottom: 20px;
+}
+
+.card-button {
+    display: inline-block; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+.card-button:hover {
+    background-color: #872bd2; 
+}
+
+.image-resize {
+    width: 450px;
+    height: 450px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+#one{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 20px;
+    
+    
+}
+
+.RR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+
+.icon{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+#T1{
+    color: rgb(243, 167, 243);
+    font-family: perpetua;
+    font-size: 20px;
+}
+
+#O{
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px; /* Mantenha a altura igual à largura para um círculo */
+    border-radius: 100px; /* Faz a borda ficar circular */
+    overflow: hidden; /* Garante que a imagem não transborde */
+}
+
+#Opai{
+    text-align: center;    
+}
+
+.Opai, .T1 {
+    flex: 1; /* Faz as divs ocuparem espaço igual */
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
