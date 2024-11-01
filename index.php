@@ -12,8 +12,8 @@
         session_start();
         error_reporting(0);
 
-        $menuNames = ["Home", "Populares", "Tecnologias", "Contato", "Créditos"];
-        $menuLinks = ["index.php", "popular.php", "tecnologias.php", "contato.php", "creditos.php"];
+        $menuNames = ["Home", "Populares", "Tecnologias", "Contato"];
+        $menuLinks = ["index.php", "popular.php", "tecnologias.php", "contato.php"];
         $menuCount = count($menuNames);
     ?>
 
