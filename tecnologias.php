@@ -36,13 +36,13 @@
             <h2>Lucas Buzo Teixeira</h2>
         </div>
         <div class="developer">
-            <h2>Natan</h2>
+            <h2>Nathan Souza da Silva</h2>
         </div>
         <div class="developer">
-            <h2>Henrique</h2>
+            <h2>Henrique Tomoki Kato</h2>
         </div>
         <div class="developer">
-            <h2>Davi</h2>
+            <h2>Davi Gabriel Lima do Nascimento</h2>
         </div>
     </div>
 
@@ -50,25 +50,24 @@
         <h1>Tecnologias</h1>
     </div>
 
-    
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, rem eius quos facere est deleniti. Quae sequ
-    i fugiat earum quia, eos corporis quasi consequatur voluptatem? Quibusdam enim doloribus commodi totam.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis quae id amet labore, dolore 
-    optio dolor, molestiae dolores dolorum similique natus temporibus incidunt accusamus eos voluptatibus, at in iusto!
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ex amet sapiente suscipit voluptatibus ve
-    ritatis quia officiis vel ducimus at. Cum enim culpa adipisci non porro magnam dignissimos placeat cumque.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit modi illo atque quibusdam! Dolores 
-    explicabo eos odio, tempore blanditiis aspernatur recusandae quibusdam? Provident recusandae qui sit molli
-    tia non ipsam debitis.
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi fugiat sed natus debitis tempore qu
-    aerat illo, optio repellendus impedit consequuntur repellat doloribus consequatur omnis deleniti, quasi a
-    met eligendi. Quasi, repellendus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quis porro quas, quam consequatur,
-     obcaecati minus modi voluptate error illum, maxime nemo et optio mollitia cum enim odit magni nesciunt.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis similique, reprehenderit pariatur doloribus
-     corrupti illum quasi quod eaque exercitationem necessitatibus sapiente quos, voluptates iusto fugit distinc
-     io reiciendis magni animi adipisci!
+    <div id="one">
+        <p class="fonte">Todas as páginas do nosso site contam com um menu para navegação entre as páginas, esse menu é feito com variáveis e array  $menuNames para 
+            armazenar os valores dos nomes e  $menuLinks para o endereço onde a página deve levar, e também, a variável $menuCount que serve 
+            para verificar a quantidade de menus existentes de forma dinâmica, a lógica de colocar os menus na tela e feita através de um for que verificia o 
+            tamanho da lista e concatena o nome e o link da página.
+        </p>
+        <br>
+        <p class="fonte">Na tela inicial (Index.php) foi usado a SESSION do PHP para passar os valores do ranking das séries, ou seja, caso o usuário tente entrar
+            via URL para a tela de rankings, sem ter antes passado pela home e clicado no botão do gênero desejado, ele vai ser redirecionado para a tela inicial, esse controle
+            é feito através da variável $_SESSION["genero"] e um if que verifica se essa variável foi setada, através da função isset do PHP.
+        </p>
+        <br>
 
+        <p class="fonte">Na tela de ranking, após feita a validação se o usuário pode estar nessa página, usamos mais uma vez arrays e a estrutura for para de forma dinâmica,
+            exibir as séries do gênero selecionado através da estrutura Switch que verifica qual foi o gênero escolhido, e com base nisso mostra na tela.
+        </p>
+    </div>
+    
 
 
     <footer>
