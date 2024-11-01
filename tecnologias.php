@@ -33,21 +33,16 @@
 
     <div class="dev-container">
         <div class="developer">
-            <h2>Lucas</h2>
-            <p>Função: Backend</p>
+            <h2>Lucas Buzo Teixeira</h2>
         </div>
         <div class="developer">
             <h2>Natan</h2>
-            <p>Função: Backend</p>
         </div>
         <div class="developer">
             <h2>Henrique</h2>
-            <p>Função: Frontend</p>
         </div>
         <div class="developer">
             <h2>Davi</h2>
-            <p>Função: Frontend</p>
-
         </div>
     </div>
 
