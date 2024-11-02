@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Populares</title>
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/popular.css">
 </head>
-<body>
+<body> 
     <?php
         error_reporting(0);
 
@@ -24,6 +24,11 @@
             ?>
         </ul>
     </nav>
+
+    <div id="title">
+        <h1>Populares</h1>
+    </div>
+
     <div id="one">
 
         <div class="card">
@@ -75,7 +80,7 @@
 
     <footer>
         <div class="footer-content">
-            <p>© 2024 Nome da Empresa. Todos os direitos reservados.</p>
+            <p>© 2024 RankMax. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>

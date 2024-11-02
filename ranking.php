@@ -114,7 +114,7 @@
 
     <footer>
         <div class="footer-content">
-            <p>© 2024 Nome da Empresa. Todos os direitos reservados.</p>
+            <p>© 2024 RankMax. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>

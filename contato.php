@@ -29,7 +29,7 @@
    
     <div id="contato">
         <fieldset id="F1">
-        <form action="back-end.php" method="POST">
+        <form action="contato-resolucao.php" method="POST">
             <h2 id="h2f1">Nos mande sua sugestão de série aqui!</h2> <br>
             <legend></legend>
             <div class="form-group">
@@ -57,7 +57,7 @@
 
     <footer>
         <div class="footer-content">
-            <p>© 2024 Nome da Empresa. Todos os direitos reservados.</p>
+            <p>© 2024 RankMax. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
