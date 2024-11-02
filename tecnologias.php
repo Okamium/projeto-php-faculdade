@@ -34,19 +34,19 @@
     <div class="dev-container">
         <div class="developer">
             <h2>Lucas Buzo</h2>
-            <h4>Função: Backend</h4>
+            <h4>Função: Código PHP</h4>
         </div>
         <div class="developer">
             <h2>Nathan Souza</h2>
-            <h4>Função: Backend</h4>
+            <h4>Função: Código PHP</h4>
         </div>
         <div class="developer">
             <h2>Henrique Tomoki</h2>
-            <h4>Função: Frontend</h4>
+            <h4>Função: Estruturação HTML</h4>
         </div>
         <div class="developer">
             <h2>Davi Gabriel</h2>
-            <h4>Função: Frontend</h4>
+            <h4>Função: Estilização CSS</h4>
         </div>
     </div>
 
